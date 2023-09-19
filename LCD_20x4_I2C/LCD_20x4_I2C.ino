@@ -11,8 +11,10 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("Ketik ");
   lcd.setCursor(0, 1);
   lcd.print("Disini");
+  delay(1000);
 }
